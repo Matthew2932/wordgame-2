@@ -23,7 +23,7 @@ function App() {
 
   const [hintCreds, setHintCreds] = useState(0)
 
-  const [currentGuessLength, setCurrentGuessLength] = useState(Math.min(...rows.map(row => row.number)))
+  // const [currentGuessLength, setCurrentGuessLength] = useState(Math.min(...rows.map(row => row.number)))
 
   // console.log(currentGuessLength)
   
@@ -39,6 +39,8 @@ function App() {
 
   const [win, setWin] = useState(false)
   const [lose, setLose] = useState(false)
+
+  if (false) setLose()
 
   
   const handleType = (newGuess) => {
