@@ -40,7 +40,7 @@ function App() {
   const [win, setWin] = useState(false)
   const [lose, setLose] = useState(false)
 
-  if (false) setLose()
+  if (false) setLose( )
 
   
   const handleType = (newGuess) => {
