@@ -31,7 +31,7 @@ function App() {
 
   const checkWordExists = (word) => {
     return correctWords.includes(word.toLowerCase());
-  };
+  }; 
 
 
   const [guess, setGuess] = useState("");
